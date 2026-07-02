@@ -1,6 +1,6 @@
 import { Analysis } from "../models/Analysis.js";
 import { analyzeSeoData } from "../services/geminiService.js";
-import { scrapeUrl } from "../services/ScraperService.js";
+import { scrapeUrl } from "../services/scraperService.js";
 
 //Analyze a url
 export const analyzeUrl = async (req, res) => {
